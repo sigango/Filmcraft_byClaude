@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bin/fc)",
+      "Bash(bin/fc *)",
+      "Bash(./bin/fc *)",
+      "Bash(bin/cutlist *)",
+      "Bash(./bin/cutlist *)",
+      "Bash(bin/index-footage)",
+      "Bash(bin/index-footage *)",
+      "Bash(./bin/index-footage *)",
+      "Bash(bin/start-apps)",
+      "Bash(bin/start-apps *)",
+      "Bash(./bin/start-apps *)"
+    ]
+  }
+}

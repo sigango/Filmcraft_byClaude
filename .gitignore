@@ -1,0 +1,19 @@
+# per-machine setup
+.venv/
+config.local.json
+.mcp.json
+vendor/
+
+# working data of each film
+footage/
+script/
+index/
+edit/
+fx/
+logs/
+backup/
+
+*.tmp
+*.lock
+.DS_Store
+__pycache__/

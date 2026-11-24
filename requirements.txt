@@ -1,0 +1,5 @@
+# Footage indexing (tools/index_footage.py). The editing tools use only the standard library.
+scenedetect>=0.6.4
+opencv-python>=4.8
+faster-whisper>=1.0
+numpy>=1.24

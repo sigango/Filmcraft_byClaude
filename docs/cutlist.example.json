@@ -1,0 +1,7 @@
+{"name": "Rough cut v1",
+ "events": [
+   {"src": "A002", "in": "00:00:00:00", "out": "00:00:03:00", "note": "greeting"},
+   {"src": "A003", "in": "1s", "out": "3s", "note": "bars"},
+   {"src": "A002", "in": "00:00:05:10", "out": "00:00:08:00", "note": "second scene"},
+   {"src": "A001", "in": "6s", "out": "7s", "at": "00:00:01:00", "track": "V2", "note": "cutaway"}],
+ "markers": [{"at": "00:00:01:00", "name": "title", "dur": 50, "comment": "lower third goes here"}]}

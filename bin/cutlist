@@ -1,0 +1,10 @@
+#!/bin/sh
+# Runs tools/<this name>.py with the project's Python (macOS, Linux, Git Bash on Windows).
+ROOT=$(cd "$(dirname "$0")/.." && pwd)
+NAME=$(basename "$0" | tr - _)
+PY=
+for p in "$ROOT/.venv/bin/python" "$ROOT/.venv/Scripts/python.exe"; do
+  if [ -x "$p" ]; then PY=$p; break; fi
+done
+[ -n "$PY" ] || PY=$(command -v python3 || command -v python)
+PYTHONUTF8=1 exec "$PY" "$ROOT/tools/$NAME.py" "$@"
